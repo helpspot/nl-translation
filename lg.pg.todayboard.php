@@ -15,6 +15,7 @@ define('lg_todayboard_category','Top categorien');
 define('lg_todayboard_closedafterx','Aantal antwoorden nog te sluiten');
 define('lg_todayboard_staffassignment','Huidige top werklasten');
 define('lg_todayboard_median','Mediaan (uren)');
+define('lg_reports_productivity', 'Productiviteit');
 define('lg_todayboard_average','Gemiddeld (uren)');
 define('lg_todayboard_interactions','Interacties');
 ?>
