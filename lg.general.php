@@ -494,9 +494,17 @@ define('lg_admin_tools_triggers_info','Realtime acties wanneer aanvragen gemaakt
 define('lg_admin_tools_portals','Secundaire portalen');
 define('lg_admin_integration_surveytools','Enquetetools');
 define('lg_custom_pages','Maatwerk paginas');
-define('lg_admin_integrations','Integrations');
+define('lg_admin_integrations_learn_zapier', "Over Zapier");
+define('lg_admin_integrations_title', 'Integraties');
+define('lg_admin_integrations_docs', 'HelpSpot Zapier Documentatie');
+define('lg_admin_thermostat_header', 'Gebruik de API van ');
+define('lg_admin_thermostat_label_api_token', 'Thermostat API Token');
+define('lg_admin_thermostat_connect', 'Opslaan');
+define('lg_admin_thermostat_get_token', 'API Token opvragen');
+define('lg_admin_thermostat_learn_about', 'Over Thermostat');
+define('lg_admin_integrations_header', 'Push data via meer dan 500 applicaties met ');
+define('lg_admin_integrations','Integraties');
 define('lg_admin_customer_tools','Customer Tools');
-
 /*****************************************
 MAIL SUBJECTS
 *****************************************/
