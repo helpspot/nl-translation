@@ -23,7 +23,7 @@ define('lg_kb_addbook','Voeg een onderdeel toe');
 define('lg_kb_bookorder','Volgorde van onderdelen');
 define('lg_kb_manage','Beheren');
 define('lg_kb_order','Volgorde');
-define('lg_reports_productivity', 'Productiviteit');
+define('lg_search_history', 'Zoek geschiedenis');
 define('lg_kb_saveorder','Volgorde opslaan');
 define('lg_kb_orderchanged','Volgorde gewijzigd');
 define('lg_kb_deletekbcheck','Weet u zeker dat u dit onderdeel wilt verwijderen? U kunt dit niet ongedaan maken en het kan enkele minuten duren.');
