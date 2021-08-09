@@ -131,11 +131,6 @@ define('lg_portal_tagsearch','Tag');
 define('lg_portal_tagsearch_books','Overeenkomsten uit de Kennisbank');
 define('lg_portal_tagsearch_forums','Overeenkomsten uit het Forum');
 
-define('lg_portal_agree_terms_privacy', 'I agree to the <a href="%s" target="_blank">Terms of Service</a> and <a href="%s" target="_blank">Privacy Policy</a>');
-define('lg_portal_agree_terms', 'I agree to the <a href="%s" target="_blank">Terms of Service</a>');
-define('lg_portal_agree_privacy', 'I agree to the <a href="%s" target="_blank">Privacy Policy</a>');
-define('lg_portal_req_terms', 'You must agree to the terms');
-
 /* HelpSpot 5 Additions */
 define('lg_portal_create_login', 'Create an account');
 define('lg_portal_loginrequired', 'Login Required');

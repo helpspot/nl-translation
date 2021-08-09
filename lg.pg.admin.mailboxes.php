@@ -86,16 +86,10 @@ define('lg_admin_mailboxes_outbounduse','SMTP die gebruikt moet worden');
 define('lg_admin_mailboxes_outboundinternal','Systeem default');
 define('lg_admin_mailboxes_outboundcustom','Aangepast');
 define('lg_admin_mailboxes_noimap','De PHP IMAP extensie is niet geinstalleerd. Deze extensie is verplicht voor email integratie.');
-define('lg_admin_mailboxes_outbound','Outbound Email');
-define('lg_admin_mailboxes_outboundex','You can use the system default SMTP settings from Admin->Settings or set specific SMTP settings for outbound email just for this mailbox.');
-define('lg_admin_mailboxes_outbounduse','SMTP Setting to Use');
-define('lg_admin_mailboxes_outboundinternal','System Default');
-define('lg_admin_mailboxes_outboundcustom','Custom');
-define('lg_admin_mailboxes_noimap','The PHP IMAP extension is not installed. This extension is required to use the email integration features.');
-	define('lg_admin_mailboxes_colid','ID');
-	define('lg_admin_mailboxes_colbox','Mailbox');
-	define('lg_admin_mailboxes_coldel','Mailbox inactief maken');
-	define('lg_admin_mailboxes_coldelwarn','Weet u zeker dat u deze mailbox inactief wilt maken?');	
+define('lg_admin_mailboxes_colid','ID');
+define('lg_admin_mailboxes_colbox','Mailbox');
+define('lg_admin_mailboxes_coldel','Mailbox inactief maken');
+define('lg_admin_mailboxes_coldelwarn','Weet u zeker dat u deze mailbox inactief wilt maken?');	
 define('lg_admin_mailboxes_msgdefault','{{ $replyabove }}
 
 Bedankt voor uw bericht. Uw aanvraag is goed ontvangen en wordt beoordeeld door onze supportmedewerkers. Hieronder vindt u links waarmee u zelf online de status van uw aanvraag kunt bekijken.
@@ -142,5 +136,4 @@ Kennisbank: <a href="{{ $knowledgebookurl }}">{{ $knowledgebookurl }}</a><br />
 /* HelpSpot 5 Additions */
 define('lg_admin_mailboxes_archive', 'Archive Mail');
 define('lg_admin_mailboxes_archive_note', 'With this enabled mail will be moved to a "helpspot_archive_folder" instead of deleting the email. This only works with imap.');
-define('lg_admin_mailboxes_deletemsg', 'Note: HelpSpot deletes emails from the mailbox if this is disabled.');
 define('lg_admin_mailboxes_depreciated', 'depreciated');

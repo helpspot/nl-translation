@@ -220,7 +220,6 @@ define('lg_request_customer_edit', 'Edit');
 define('lg_request_starttimer', 'Start Timer');
 define('lg_request_stoptimer', 'Stop Timer');
 define('lg_request_timetrackeroptions', 'Options');
-define('lg_request_note', 'Note');
 define('lg_request_contactedvia_short', 'Via');
 define('lg_request_attachbox', 'Click or drag/drop to attach');
 define('lg_request_isnoturgent', 'Mark Urgent');

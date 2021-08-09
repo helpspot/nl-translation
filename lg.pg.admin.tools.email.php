@@ -23,9 +23,6 @@ define('lg_admin_emailtemplates_publicex','Dit is de default publieke notitie te
 define('lg_admin_emailtemplates_externalex','Dit is de default publieke notitie template. Per mailbox kan ingesteld worden of een andere template dan de default gebruikt moet worden.');
 define('lg_admin_emailtemplates_reminders','Herinneringen');
 define('lg_admin_emailtemplates_sms','SMS berichten');
-define('lg_admin_emailtemplates_trackidmissing','Tracking ID (##TRACKING_ID##) ontbreekt in de onderwerpregel van de publieke notitie aan de klant. Deze ID weglaten verhinderd dat Helpspot mail juist gekoppeld wordt aan openstaande aanvragen.');
+define('lg_admin_emailtemplates_trackidmissing','Tracking ID ({{ $tracking_id }}) ontbreekt in de onderwerpregel van de publieke notitie aan de klant. Deze ID weglaten verhinderd dat Helpspot mail juist gekoppeld wordt aan openstaande aanvragen.');
 define('lg_admin_emailtemplates_partials','Gedeeltelijke templates');
 define('lg_admin_emailtemplates_replyabove','Hierboven antwoorden');
-
-/* HelpSpot 5 Additions */
-define('lg_admin_emailtemplates_trackidmissing', 'Tracking ID ({{ $tracking_id }}) is missing from the subject line of Public Note to Customer. Omitting this will prevent HelpSpot from correctly threading responses.');

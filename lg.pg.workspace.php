@@ -67,6 +67,3 @@ define('lg_workspace_viewable_onlyme','Alleen ikzelf');
 define('lg_workspace_viewable_permstaff','Medewerkers met toestemming');
 define('lg_workspace_viewable_everyone','Iedereen');
 define('lg_workspace_viewable_group','Groep');
-
-/* HelpSpot 5 Additions */
-define('lg_workspace_stream', 'Stream');
