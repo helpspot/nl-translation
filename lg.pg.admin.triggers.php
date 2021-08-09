@@ -42,4 +42,6 @@ define('lg_admin_trigger_fbedited','Trigger bewerkt');
 define('lg_admin_trigger_sorttitle','Trigger Volgorde');
 define('lg_admin_trigger_note','Houdt realtime wijzigingen in aanvragen in de gaten en neemt onmiddellijk actie. <br /><b>Intensieve of talrijke triggers kunnen de performance van het systeem verlagen</b>');
 define('lg_admin_trigger_confirm','Weet u zeker dat u deze trigger toe wilt voegen? De trigger zal onmiddellijk actief worden.');
-?>
+
+/* HelpSpot 5 Additions */
+define('lg_admin_trigger_error_conditions', 'Your must add at least one condition to this trigger before saving');

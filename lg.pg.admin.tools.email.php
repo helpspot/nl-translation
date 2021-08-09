@@ -26,4 +26,6 @@ define('lg_admin_emailtemplates_sms','SMS berichten');
 define('lg_admin_emailtemplates_trackidmissing','Tracking ID (##TRACKING_ID##) ontbreekt in de onderwerpregel van de publieke notitie aan de klant. Deze ID weglaten verhinderd dat Helpspot mail juist gekoppeld wordt aan openstaande aanvragen.');
 define('lg_admin_emailtemplates_partials','Gedeeltelijke templates');
 define('lg_admin_emailtemplates_replyabove','Hierboven antwoorden');
-?>
+
+/* HelpSpot 5 Additions */
+define('lg_admin_emailtemplates_trackidmissing', 'Tracking ID ({{ $tracking_id }}) is missing from the subject line of Public Note to Customer. Omitting this will prevent HelpSpot from correctly threading responses.');

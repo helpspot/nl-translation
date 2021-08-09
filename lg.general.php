@@ -648,4 +648,32 @@ define('lg_cal_sdn_we','Woe');
 define('lg_cal_sdn_th','Do');
 define('lg_cal_sdn_fr','Vr');
 define('lg_cal_sdn_sa','Za');
-?>
+
+/* HelpSpot 5 Additions */
+define('lg_logbackin', 'Log Back In');
+define('lg_logged_out', 'You have been logged out!');
+define('lg_login_trouble', 'Having trouble logging in?');
+define('lg_login_use_default', 'Use HelpSpot\'s default authentication to login and fix any issues');
+define('lg_login_authenticating', 'Authenticating...');
+define('lg_options', 'Options');
+define('lg_freestart', 'Need more users, support, or hosting?');
+define('lg_upgrade', 'Upgrade to Paid');
+define('lg_purchase_here', 'Purchase here');
+define('lg_response_shortcut', 'Type # for autocompletion');
+define('lg_noresults_search', 'No results.<br /> <a href="admin?pg=search">Try advanced search</a>');
+define('lg_thermostat_label_see_results', 'See Survey Results');
+define('lg_conditional_at_thermostat_promoter', 'promoter');
+define('lg_conditional_at_thermostat_passive', 'passive');
+define('lg_conditional_at_thermostat_detractor', 'detractor');
+define('lg_conditional_at_thermostat_satisfied', 'satisfied');
+define('lg_conditional_at_thermostat_dissatisfied', 'dissatisfied');
+define('lg_requestchanged', 'Request Changed');
+define('lg_admin_customize_admin_nav', 'Customize Admin');
+define('lg_darkmode_on', 'Dark Mode: On');
+define('lg_darkmode_off', 'Dark Mode: Off');
+define('lg_search_tab', 'Search');
+define('lg_responses', 'Responses');
+define('lg_admin_tools_jobsmgmt', 'Failed Jobs');
+define('lg_not_email_send_error', 'Email send error for request');
+define('lg_not_see_details', 'See Details');
+define('lg_not_dismiss', 'Dismiss');

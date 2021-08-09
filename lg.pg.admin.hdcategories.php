@@ -57,4 +57,6 @@ define('lg_admin_categories_colwf','Publiek');
 define('lg_admin_categories_colassign','Automatisch toewijzen');
 define('lg_admin_categories_coldel','Maak categorie inactief');
 define('lg_admin_categories_coldelwarn','Weet u zeker dat u deze categorie inactief wilt maken?');
-?>
+
+/* HelpSpot 5 Additions */
+define('lg_admin_categories_addgroup', 'Add Group');

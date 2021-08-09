@@ -307,4 +307,37 @@ define('lg_admin_settings_bizhours_error','Een van de kantoortijden heeft een ei
 define('lg_admin_settings_prefix_error','Het email voorvoegsel mag alleen letters bevatten');
 define('lg_admin_settings_allow_cc','Allow CC email addresses');
 define('lg_admin_settings_allow_subject','Allow customer defined subject');
-?>
+
+/* HelpSpot 5 Additions */
+define('lg_admin_settings_saml', 'SAML2.0');
+define('lg_admin_settings_saml_usernamenote', 'Your staff must have a SAML username (or email) set in their HelpSpot settings in order to login');
+define('lg_admin_settings_saml_idp', 'Identity Provider (IdP)');
+define('lg_admin_settings_saml_entityid', 'Entity ID');
+define('lg_admin_settings_saml_entityid_ex', 'The Identity Provider identity (issuer) URL');
+define('lg_admin_settings_saml_loginurl', 'Login URL (SSO)');
+define('lg_admin_settings_saml_loginurl_ex', 'The Identity Provider SSO login URL');
+define('lg_admin_settings_saml_logouturl', 'Logout URL (SLO)');
+define('lg_admin_settings_saml_logouturl_ex', 'The Identity Provider SLO logout URL');
+define('lg_admin_settings_saml_cert', 'Certificate');
+define('lg_admin_settings_saml_cert_ex', 'Must be x509 certificate format. Microsoft users can find this within the Federation Metadata XML.');
+define('lg_admin_settings_saml_sp', 'Service Provider (SP)');
+define('lg_admin_settings_saml_sp_ex', 'Use the following information to complete any needed configuration within your Identity Provider (IdP).');
+define('lg_admin_settings_saml_relaystate', 'Relay State');
+define('lg_admin_settings_saml_acs', 'Assertion Consumer Service (ACS) URL');
+define('lg_admin_settings_saml_signonurl', 'Login URL');
+define('lg_admin_settings_saml_signouturl', 'Single Logout Service (SLS) URL');
+define('lg_admin_settings_portalauthtypesamlex', 'Use SAML for Portal authentication.');
+define('lg_admin_portals_require_auth', 'Require Portal Authentication');
+define('lg_admin_portals_require_auth_ex', 'Users will not be able to submit requests or browse knowledge bases until they login');
+define('lg_admin_settings_workers', 'Workers');
+define('lg_admin_settings_workers_restart', 'Restart Workers');
+define('lg_admin_settings_workers_restart_info', 'This will restart your queue workers');
+define('lg_admin_settings_workers_restarted', 'The workers have been restarted');
+define('lg_admin_settings_sesstimeout','Session Timeout');
+define('lg_admin_settings_sesstimeoutex','Length of login session before user is logged out');
+define('lg_admin_settings_terms_enable','Ask customer to accept privacy policy and terms');
+define('lg_admin_settings_portalterms','URL of terms of service');
+define('lg_admin_settings_portalprivacy','URL of privacy policy');
+define('lg_admin_settings_portalterms_info','If you enter a URL, then the users must accept before submitting a request');
+define('lg_admin_settings_reply_above_slash_error', 'The reply above text can not contain a slash `/`');
+

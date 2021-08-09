@@ -102,4 +102,27 @@ define('lg_admin_users_coldel','Maak inactief');
 define('lg_admin_users_coldelwarn','Bent u er zeker dat u deze medewerker inactief wilt stellen?');
 define('lg_admin_users_search','Zoeken: medewerkers');
 define('lg_admin_users_er_default_cat', 'This user is the default contact in at least one category. You must reassign the default contact before this user can be made inactive.');
-?>
+
+/* HelpSpot 5 Additions */
+define('lg_admin_users_darkmode', 'Dark Mode');
+define('lg_admin_users_password_info', 'Minimum of 8 characters');
+define('lg_admin_users_avatars_emoji', 'Type in emoji using your device\'s emoji keyboard.<br /> Mac: CTRL + CMD + Space, Windows: Win + ;');
+define('lg_admin_users_sig_desc', 'This signature will be included in your outbound email. You will usually want to supply the HTML version below as well.');
+define('lg_admin_users_sig_html', 'Email Signature - HTML');
+define('lg_admin_users_sig_html_desc', 'This signature will be included in your outbound email. You will usually want to supply the text version above as well.');
+define('lg_admin_users_er_passlen', 'Password must be 8 characters or longer');
+define('lg_admin_users_api_auth', 'API Authentication Tokens');
+define('lg_admin_users_api_no_tokens', 'No API Tokens Created');
+define('lg_admin_users_api_label_id', 'ID');
+define('lg_admin_users_api_label_token', 'Token');
+define('lg_admin_users_api_label_created_at', 'Created');
+define('lg_admin_users_api_label_last_used', 'Last Used');
+define('lg_admin_users_api_label_show', 'show');
+define('lg_admin_users_api_label_unused', 'unused');
+define('lg_admin_users_api_label_token_name', 'Name');
+define('lg_admin_users_api_issue_new', 'Issue New Token');
+define('lg_admin_users_api_token_name', 'Token Name');
+define('lg_admin_users_api_token_new', 'Your API Token');
+define('lg_admin_users_api_token_revoke_confirm', 'Are you sure you want to revoke this token?');
+define('lg_admin_users_api_explanation', 'API Tokens are used to authenticate against HelpSpot\'s Private API. More information <a href="https://support.helpspot.com/index.php?pg=kb.page&id=162" target="_blank"> here</a>.');
+define('lg_admin_users_emojiavatar', 'Set Emoji Avatar');

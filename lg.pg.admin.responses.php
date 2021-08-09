@@ -63,4 +63,20 @@ define('lg_admin_responses_togglecf','Vrije velden');
 define('lg_admin_responses_togglenote','Notitie opties');
 define('lg_admin_responses_dontemail','Geen email versturen');
 define('lg_admin_responses_owner', 'Response Owner');
-?>
+
+/* HelpSpot 5 Additions */
+define('lg_admin_responses_recurring', 'Recurring');
+define('lg_admin_responses_addattachment', 'Add Attachment');
+define('lg_admin_responses_adv_tofield_note', '(for external notes only)');
+define('lg_admin_responses_restorewarn', 'Are you sure you want to restore this response?');
+define('lg_admin_responses_scheduling', 'Convert to Recurring Request');
+define('lg_admin_responses_scheduling_enabled', 'Enable Recurring Request');
+define('lg_admin_responses_scheduling_info', 'HelpSpot creates a new request at the defined interval based on this response. Perfect for regular maintenance tasks or recurring reminders.');
+define('lg_admin_responses_scheduling_customerinfo', 'Customer Details (at least one required)');
+define('lg_admin_responses_create_schedule', 'Create Request');
+define('lg_admin_responses__time', 'at/on');
+define('lg_admin_responses_first_name', 'First Name');
+define('lg_admin_responses_last_name', 'Last Name');
+define('lg_admin_responses_email', 'Email');
+define('lg_admin_responses_phone', 'Phone');
+define('lg_admin_responses_customer_id', 'Customer ID');

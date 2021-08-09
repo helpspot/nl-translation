@@ -182,4 +182,30 @@ define('lg_reports_kb_helpful_count','Aantal');
 define('lg_reports_kb_helpful_orderby','Sorteren op');
 define('lg_reports_kb_helpful_type_helpful','Nuttig');
 define('lg_reports_kb_helpful_type_not','Niet nuttig');
-?>
+
+/* HelpSpot 5 Additions */
+define('lg_reports_customize', 'Save + Email');
+define('lg_reports_filterconditions', 'Save this report to be able to quickly reuse it with all filters and options set.');
+define('lg_reports_er_title','Please provide a title for this report');
+define('lg_reports_er_folder','Please select/create a folder for this report');
+define('lg_reports_name','Report Name');
+define('lg_reports_details','Report Details');
+define('lg_reports_myfolder','My Reports');
+define('lg_reports_addfolder','Add Folder');
+define('lg_reports_folder','In Folder');
+define('lg_reports_sharing','Sharing');
+define('lg_report_perms','Who else can view this');
+define('lg_filter_reports_addfolder','Add Folder');
+define('lg_report_myreports','My Reports');
+define('lg_report_saved_reports','Saved Reports');
+define('lg_reports_nofolder','-Top Level (no folder)');
+
+define('lg_reports_email_label', 'Email This Report');
+define('lg_reports_email_on', 'Enable Emailing the report');
+define('lg_reports_email_time', 'at/on');
+define('lg_reports_email_schedule', 'Schedule');
+define('lg_reports_email_data_range', 'Data Range');
+define('lg_reports_email_to', 'Staff to email');
+define('lg_reports_email_external', 'Outside emails');
+define('lg_reports_email_external_txt', 'Separate with a comma or a new line.');
+define('lg_reports_email_external_error', 'The following emails are invalid: ');

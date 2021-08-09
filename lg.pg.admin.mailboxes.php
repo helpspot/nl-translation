@@ -19,7 +19,7 @@ define('lg_admin_mailboxes_noshowdel','Terug naar mailboxen');
 define('lg_admin_mailboxes_options','Opties');
 define('lg_admin_mailboxes_emailtemplates','Email templates');
 define('lg_admin_mailboxes_insertdefault','Voorvullen met default');
-define('lg_admin_mailboxes_trackidmissing','Tracking ID (##TRACKING_ID##) ontbreekt in de onderwerpregel van de publieke notitie naar de klant. Het weglaten van deze ID verhinderd dat Helpspot antwoorden van de klant juist kan herleiden.');
+define('lg_admin_mailboxes_trackidmissing','Tracking ID ({{ $tracking_id }}) ontbreekt in de onderwerpregel van de publieke notitie naar de klant. Het weglaten van deze ID verhinderd dat Helpspot antwoorden van de klant juist kan herleiden.');
 define('lg_admin_mailboxes_help','Door een mailbox te configureren kan Helpspot de mail op een specifieke account controleren.Binnenkomende mail wordt gefilterd op spam en omgezet in aanvragen. 
 									Admins kunnen ervoor kiezen om mail automatisch toe te wijzen aan medewerkers en categorien.');
 define('lg_admin_mailboxes_mailbox','Mailbox');
@@ -96,27 +96,26 @@ define('lg_admin_mailboxes_noimap','The PHP IMAP extension is not installed. Thi
 	define('lg_admin_mailboxes_colbox','Mailbox');
 	define('lg_admin_mailboxes_coldel','Mailbox inactief maken');
 	define('lg_admin_mailboxes_coldelwarn','Weet u zeker dat u deze mailbox inactief wilt maken?');	
-define('lg_admin_mailboxes_msgdefault','##REPLYABOVE##
+define('lg_admin_mailboxes_msgdefault','{{ $replyabove }}
 
 Bedankt voor uw bericht. Uw aanvraag is goed ontvangen en wordt beoordeeld door onze supportmedewerkers. Hieronder vindt u links waarmee u zelf online de status van uw aanvraag kunt bekijken.
 									
-Bekijk uw aanvraag online: ##REQUESTCHECKURL##&id=##ACCESSKEY##
-Aanvraag toegangscode:  ##ACCESSKEY##
+Bekijk uw aanvraag online: {{ $requestcheckurl }}&id={{ $accesskey }}
+Aanvraag toegangscode:  {{ $accesskey }}
 
 ____________________________________
 Raadpleeg ook eens onze andere bronnen:
-Kennisbank: ##KNOWLEDGEBOOKURL##
-Forums: ##FORUMURL##');	
+Kennisbank: {{ $knowledgebookurl }}');	
 define('lg_admin_mailboxes_msgdefault_html','
 <html>
 <body>
-##REPLYABOVE##
+{{ $replyabove }}
 
 <table width="100%" cellpadding="6" cellspacing="0" bgcolor="#dfe5ff">
 <tr>
 <td style="font-weight:bold;">Request Received</td>
 <td align="right">
-<a href="##REQUESTCHECKURL##&id=##ACCESSKEY##">Volledige geschiedenis van aanvraag bekijken</a>
+<a href="{{ $requestcheckurl }}&id={{ $accesskey }}">Volledige geschiedenis van aanvraag bekijken</a>
 </td>
 </tr>
 </table>
@@ -127,16 +126,21 @@ define('lg_admin_mailboxes_msgdefault_html','
 
 <br />
 									
-<p>Bekijk uw aanvraag online: <a href="##REQUESTCHECKURL##&id=##ACCESSKEY##">##REQUESTCHECKURL##&id=##ACCESSKEY##</a><br />
-Aanvraag toegangscode: ##ACCESSKEY##</p>
+<p>Bekijk uw aanvraag online: <a href="{{ $requestcheckurl }}&id={{ $accesskey }}">{{ $requestcheckurl }}&id={{ $accesskey }}</a><br />
+Aanvraag toegangscode: {{ $accesskey }}</p>
 
 <hr width="80%">
 
 <p>Raadpleeg ook eens onze andere bronnen:<br />
-Kennisbank: <a href="##KNOWLEDGEBOOKURL##">##KNOWLEDGEBOOKURL##</a><br />
-Forums: <a href="##FORUMURL##">##FORUMURL##</a></p>
+Kennisbank: <a href="{{ $knowledgebookurl }}">{{ $knowledgebookurl }}</a><br />
+
 
 </body>
 </html>
 ');	
-?>
+
+/* HelpSpot 5 Additions */
+define('lg_admin_mailboxes_archive', 'Archive Mail');
+define('lg_admin_mailboxes_archive_note', 'With this enabled mail will be moved to a "helpspot_archive_folder" instead of deleting the email. This only works with imap.');
+define('lg_admin_mailboxes_deletemsg', 'Note: HelpSpot deletes emails from the mailbox if this is disabled.');
+define('lg_admin_mailboxes_depreciated', 'depreciated');

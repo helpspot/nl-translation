@@ -53,4 +53,10 @@ define('lg_admin_portaltemplates_temp_searchbox','HTML voor het zoekveld, gebrui
 define('lg_admin_portaltemplates_temp_tag_search','Lijst van paginas en onderwerpen die overeenkomen met een kennistag');
 define('lg_admin_portaltemplates_temp_terms','HTML Elements for agreeing to the terms and privacy policy.');
 define('lg_admin_portaltemplates_primary','Primair portaal');
-?>
+
+/* HelpSpot 5 Additions */
+define('lg_admin_portaltemplates_temp_css_clean', '(Clean) CSS styles used in the portal');
+define('lg_admin_portaltemplates_temp_ie_css_clean', '(Clean) Special IE specific CSS styles used in the portal');
+define('lg_admin_portaltemplates_temp_login_create', 'Customer account creation page');
+define('lg_admin_portaltemplates_temp_login_forgot', 'Customer forgot password page');
+define('lg_admin_portaltemplates_temp_login_reset', 'Customer reset password page');

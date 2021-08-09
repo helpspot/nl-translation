@@ -329,107 +329,107 @@ Ian Landsman, Founder
 
 //START OF EMAIL TEMPLATES. - TO CHANGE THESE TEMPLATES IN YOUR INSTALLATION GO TO Admin->Tools->Modify Email Templates
 define('lg_inst_et_portal_reqcreated','
-##REPLYABOVE##
+{{ $replyabove }}
 
 Your request, as follows, has been received and is being reviewed by our support staff.
 
 Don\'t forget you can review the status of the this request and add updates by going to:
-##REQUESTCHECKURL##
+{{ $requestcheckurl }}
 
-Request access key: ##ACCESSKEY##
+Request access key: {{ $accesskey }}
 
 Thank You
 
 REQUEST INFORMATION
 -------------------------------------------
-##MESSAGE##
+{{ $message }}
 ');
 
 define('lg_inst_et_forumreply','
 # FORUM REPLY
 
-##MESSAGE##
+{{ $message }}
 
-##POSTERNAME##
+{{ $postername }}
 -------------------------------------------
 
-Reply at: ##REPLYURL##
+Reply at: {{ $replyurl }}
 ');
 
 define('lg_inst_et_staff','
-##REPLYABOVE##
+{{ $replyabove }}
 
-# ##LABEL##
+# {{ $label }}
 
-##MESSAGE##
+{{ $message }}
 -------------------------------------------
 
-##REQUESTDETAILS##
+{{ $requestdetails }}
 ');
 
 define('lg_inst_et_newstaff','
 Welcome-
  
-Your HelpSpot account has been created. You can access the site at ##HELPSPOTURL## using the account information provided below.
+Your HelpSpot account has been created. You can access the site at {{ $helpspoturl }} using the account information provided below.
 
 Your account details are:
 
-email:    ##EMAIL##
-password: ##PASSWORD##
+email:    {{ $email }}
+password: {{ $password }}
 
 Thank You
 ');
 
 define('lg_inst_et_ccstaff','
-##REPLYABOVE##
+{{ $replyabove }}
 
-# Request notification from ##NAME##
+# Request notification from {{ $name }}
 
-##MESSAGE##
+{{ $message }}
 -------------------------------------------
-View complete request: ##REQUESTCHECKURL##
+View complete request: {{ $requestcheckurl }}
 ');
 
 define('lg_inst_et_public','
-##REPLYABOVE##
+{{ $replyabove }}
 
-##MESSAGE##
+{{ $message }}
 
 -------------------------------------------
 View the complete request history: 
-##REQUESTCHECKURL##
+{{ $requestcheckurl }}
 
-Request access key: ##ACCESSKEY##
+Request access key: {{ $accesskey }}
 ');
 
 define('lg_inst_et_reminder','
-##REPLYABOVE##
+{{ $replyabove }}
 
 # REMINDER
 
-##MESSAGE##
+{{ $message }}
 -------------------------------------------
 
-##REQUESTDETAILS##
+{{ $requestdetails }}
 ');
 
 define('lg_inst_et_external','
-##REPLYABOVE##
+{{ $replyabove }}
 
-##MESSAGE##
+{{ $message }}
 ');
 
 define('lg_inst_et_portal_reqcreated_html','
 <html>
 <body>
 
-##REPLYABOVE##
+{{ $replyabove }}
 
 <table width="100%" cellpadding="6" cellspacing="0" bgcolor="#dfe5ff">
 <tr>
 <td style="font-weight:bold;">Request Received</td>
 <td align="right">
-<a href="##REQUESTCHECKURL##">View the complete request history</a>
+<a href="{{ $requestcheckurl }}">View the complete request history</a>
 </td>
 </tr>
 </table>
@@ -440,7 +440,7 @@ define('lg_inst_et_portal_reqcreated_html','
 
 <hr width="80%" /><br />
 
-##MESSAGE##
+{{ $message }}
 
 </body>
 </html>
@@ -450,9 +450,9 @@ define('lg_inst_et_external_html','
 <html>
 <body>
 
-##REPLYABOVE##
+{{ $replyabove }}
 
-##MESSAGE##
+{{ $message }}
 
 </body>
 </html>
@@ -462,24 +462,24 @@ define('lg_inst_et_staff_html','
 <html>
 <body>
 
-##REPLYABOVE##
+{{ $replyabove }}
 
 <table width="100%" cellpadding="6" cellspacing="0" bgcolor="#dfe5ff">
 <tr>
-<td style="font-weight:bold;">##LABEL##</td>
+<td style="font-weight:bold;">{{ $label }}</td>
 <td align="right">
-<a href="##MOBILELINK##">View in App</a> - <a href="##REQUESTCHECKURL##">View the request</a>
+<a href="{{ $mobilelink }}">View in App</a> - <a href="{{ $requestcheckurl }}">View the request</a>
 </td>
 </tr>
 </table>
 
 <br />
 
-##MESSAGE##
+{{ $message }}
 
 <br /><hr width="80%" /><br />
 
-##REQUESTDETAILS_HTML##
+{{ $requestdetails_html }}
 
 </body>
 </html>
@@ -489,20 +489,20 @@ define('lg_inst_et_ccstaff_html','
 <html>
 <body>
 
-##REPLYABOVE##
+{{ $replyabove }}
 
 <table width="100%" cellpadding="6" cellspacing="0" bgcolor="#dfe5ff">
 <tr>
-<td style="font-weight:bold;">Request Notification from ##NAME##</td>
+<td style="font-weight:bold;">Request Notification from {{ $name }}</td>
 <td align="right">
-<a href="##MOBILELINK##">View in App</a> - <a href="##REQUESTCHECKURL##">View the complete request history</a>
+<a href="{{ $mobilelink }}">View in App</a> - <a href="{{ $requestcheckurl }}">View the complete request history</a>
 </td>
 </tr>
 </table>
 
 <br />
 
-##MESSAGE##
+{{ $message }}
 
 </body>
 </html>
@@ -512,20 +512,20 @@ define('lg_inst_et_public_html','
 <html>
 <body>
 
-##REPLYABOVE##
+{{ $replyabove }}
 
 <table width="100%" cellpadding="6" cellspacing="0" bgcolor="#dfe5ff">
 <tr>
 <td style="font-weight:bold;">Request Update</td>
 <td align="right">
-<a href="##REQUESTCHECKURL##">View the complete request history</a>
+<a href="{{ $requestcheckurl }}">View the complete request history</a>
 </td>
 </tr>
 </table>
 
 <br />
 
-##MESSAGE##
+{{ $message }}
 
 </body>
 </html>
@@ -535,7 +535,7 @@ define('lg_inst_et_reminder_html','
 <html>
 <body>
 
-##REPLYABOVE##
+{{ $replyabove }}
 
 <table width="100%" cellpadding="6" cellspacing="0" bgcolor="#dfe5ff">
 <tr>
@@ -545,11 +545,11 @@ define('lg_inst_et_reminder_html','
 
 <br />
 
-##MESSAGE##
+{{ $message }}
 
 <br /><hr width="80%" /><br />
 
-##REQUESTDETAILS_HTML##
+{{ $requestdetails_html }}
 
 </body>
 </html>
@@ -567,15 +567,15 @@ define('lg_inst_et_forumreply_html','
 
 <br />
 
-##MESSAGE##
+{{ $message }}
 
 <br /><br />
 
-<b>##POSTERNAME##</b>
+<b>{{ $postername }}</b>
 
 <br /><hr width="80%" /><br />
 
-Reply at: <a href="##REPLYURL##">##REPLYURL##</a>
+Reply at: <a href="{{ $replyurl }}">{{ $replyurl }}</a>
 
 </body>
 </html>
@@ -593,13 +593,13 @@ define('lg_inst_et_newstaff_html','
 
 <p>Welcome-</p>
  
-<p>Your HelpSpot account has been created. You can access the site at <a href="##HELPSPOTURL##">##HELPSPOTURL##</a> using the account information provided below.</p>
+<p>Your HelpSpot account has been created. You can access the site at <a href="{{ $helpspoturl }}">{{ $helpspoturl }}</a> using the account information provided below.</p>
 
 <p>Your account details are:</p>
 
 <table>
-<tr><td><b>Email:</b></td><td> ##EMAIL##</td></tr>
-<tr><td><b>Password:</b></td><td> ##PASSWORD##</td></tr>
+<tr><td><b>Email:</b></td><td> {{ $email }}</td></tr>
+<tr><td><b>Password:</b></td><td> {{ $password }}</td></tr>
 </table>
 
 <p>Thank You</p>
@@ -614,7 +614,7 @@ Hello,
 Please click the link below to reset your password.
 
 RESET LINK: 
-##RESET_URL##
+{{ $reset_url }}
 
 * A new password will be generated and emailed to this address.
 
@@ -635,7 +635,7 @@ define('lg_inst_et_retrievepass_html','
  
 <p>Please click the link below to reset your password.</p>
 
-<p>RESET LINK: <a href="##RESET_URL##">Click here to reset your password</a></p>
+<p>RESET LINK: <a href="{{ $reset_url }}">Click here to reset your password</a></p>
 
 <p><b>A new password will be generated and emailed to this address.</b></p>
 
@@ -648,7 +648,7 @@ define('lg_inst_et_retrievepass_html','
 define('lg_inst_et_newportalpass','
 Your password has been reset.
 
-New Password: ##NEW_PASSWORD##
+New Password: {{ $new_password }}
 
 Note, your password can be changed after logging in.
 ');
@@ -666,7 +666,7 @@ define('lg_inst_et_newportalpass_html','
 <p>Your password has been reset.</p>
 
 <p>New Password:<br />
-<b>##NEW_PASSWORD##</b></p>
+<b>{{ $new_password }}</b></p>
 
 <p>Note, your password can be changed after logging in.</p>
 
@@ -674,27 +674,27 @@ define('lg_inst_et_newportalpass_html','
 </html>
 ');
 
-define('lg_inst_et_sms','##MESSAGE##');
+define('lg_inst_et_sms','{{ $message }}');
 
-define('lg_inst_et_partials_replyabove',"##REPLYABOVE_TEXT##\n-------------------------------------------\n");
+define('lg_inst_et_partials_replyabove',"{{ $replyabove_text }}\n-------------------------------------------\n");
 define('lg_inst_et_partials_replyabove_html','
 <table cellpadding="0" cellspacing="0" border="0" width="100%">
 <tr>
 	<td style="color:#999;padding: 10px 10px 10px 0px; text-align:center;" align="center">
-		##REPLYABOVE_TEXT##
+		{{ $replyabove_text }}
 	</td>
 </tr>
 </table>');
 
-define('lg_inst_et_portal_reqcreated_subject','##EMAIL_SUBJECT## ##TRACKING_ID##');
-define('lg_inst_et_external_subject','##EMAIL_SUBJECT## ##TRACKING_ID##');
-define('lg_inst_et_staff_subject','##URGENT## ##EMAIL_SUBJECT## ##TRACKING_ID##');
-define('lg_inst_et_ccstaff_subject','##EMAIL_SUBJECT## ##TRACKING_ID##');
-define('lg_inst_et_public_subject','##EMAIL_SUBJECT## ##TRACKING_ID##');
-define('lg_inst_et_reminder_subject','##EMAIL_SUBJECT## ##TRACKING_ID##');
-define('lg_inst_et_forumreply_subject','##EMAIL_SUBJECT##');
-define('lg_inst_et_newstaff_subject','##EMAIL_SUBJECT##');
-define('lg_inst_et_retrievepass_subject','##EMAIL_SUBJECT##');
-define('lg_inst_et_newportalpass_subject','##EMAIL_SUBJECT##');
+define('lg_inst_et_portal_reqcreated_subject','{{ $email_subject }} {{ $tracking_id }}');
+define('lg_inst_et_external_subject','{{ $email_subject }} {{ $tracking_id }}');
+define('lg_inst_et_staff_subject','{{ $urgent }} {{ $email_subject }} {{ $tracking_id }}');
+define('lg_inst_et_ccstaff_subject','{{ $email_subject }} {{ $tracking_id }}');
+define('lg_inst_et_public_subject','{{ $email_subject }} {{ $tracking_id }}');
+define('lg_inst_et_reminder_subject','{{ $email_subject }} {{ $tracking_id }}');
+define('lg_inst_et_forumreply_subject','{{ $email_subject }}');
+define('lg_inst_et_newstaff_subject','{{ $email_subject }}');
+define('lg_inst_et_retrievepass_subject','{{ $email_subject }}');
+define('lg_inst_et_newportalpass_subject','{{ $email_subject }}');
 
 ?>

@@ -152,4 +152,6 @@ define('lg_theme_changed','Uw thema is gewijzigd');
 define('lg_admin_portaltemplates_savebutton','Template opslaan');
 define('lg_admin_portaltemplates_viewprev','Bekijke voorgaande aanpassingen aan');
 define('lg_admin_portaltemplates_originaltemplate','Originele template');
-?>
+
+/* HelpSpot 5 Additions */
+define('lg_saved_success', 'Your settings have been saved');

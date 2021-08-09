@@ -79,4 +79,17 @@ define('lg_admin_portals_inst_step3_p3','De bestandstructuur van');
 define('lg_admin_portals_inst_step3_p4','zou zichtbaar moeten zijn zoals hieronder');
 define('lg_admin_portals_inst_note2','Als u wilt dat emails naar klanten een link bevatten naar dit specifieke portaal, vergeet dan niet om de <u>publieke notities naar klanten</u> template op de mailbox pagina (Admin->Mailboxen) aan te passen. Vervang <b>##REQUESTCHECKURL##</b> door <b>##PORTAL%s_REQUESTCHECKURL##&id=##ACCESSKEY##</b> in zowel de tekst als de HTML versie van de emailtemplate.');
 define('lg_admin_portals_inst_note1','Het portaal zou nu zichtbaar moeten zijn op');
-?>
+
+/* HelpSpot 5 Additions */
+define('lg_admin_portals_instructionsnote_secondary', 'However, if portal files failed to be created, or need to be created manually, you can do the following.');
+define('lg_admin_portals', 'Portals');
+define('lg_admin_portals_colprimary', 'Is Primary');
+define('lg_admin_portals_sportalprimary', 'Use as Primary Portal');
+define('lg_admin_portals_sportalprimaryex', 'Override the primary portal and use this portal in its place. Only one Secondary Portal can be used as the primary portal.');
+define('lg_admin_portals_erprimary', 'Only one secondary portal can act has the primary portal');
+define('lg_admin_portals_ernonprimarypath', 'Secondary portals cannot have the same file path as the primary portal');
+define('lg_admin_portals_require_auth', 'Require Portal Authentication');
+define('lg_admin_portals_require_auth_ex', 'Users will not be able to submit requests or browse knowledge bases until they login');
+define('lg_admin_portals_instructionsnote_main', 'These steps are performed automatically by HelpSpot.');
+define('lg_admin_portals_inst_step2_p3', 'The file structure of');
+define('lg_admin_portals_inst_step2_p4', 'should appear as below');

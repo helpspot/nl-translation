@@ -23,4 +23,6 @@ define('lg_admin_themes_pt_bluedesc','Een licht thema wat gemakkelijk aangepast 
 define('lg_admin_themes_pt_classic','Klassiek');
 define('lg_admin_themes_pt_classicdesc','Een eenvoudig portaal thema van voor versie 3');
 
-?>
+/* HelpSpot 5 Additions */
+define('lg_admin_themes_pt_clean', 'Clean');
+define('lg_admin_themes_pt_cleandesc', 'A clean and modern theme that is easy to customize.');

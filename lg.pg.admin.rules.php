@@ -37,4 +37,6 @@ define('lg_admin_rules_anyhours','Altijd');
 define('lg_admin_rules_bizhours','Alleen tijdens kantooruren');
 define('lg_admin_rules_offhours','Alleen buiten kantoortijden');
 define('lg_admin_rules_options','Opties');
-?>
+
+/* HelpSpot 5 Additions */
+define('lg_admin_rules_error_conditions', 'Your must add at least one condition to this trigger before saving');

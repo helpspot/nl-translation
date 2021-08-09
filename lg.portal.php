@@ -135,4 +135,20 @@ define('lg_portal_agree_terms_privacy', 'I agree to the <a href="%s" target="_bl
 define('lg_portal_agree_terms', 'I agree to the <a href="%s" target="_blank">Terms of Service</a>');
 define('lg_portal_agree_privacy', 'I agree to the <a href="%s" target="_blank">Privacy Policy</a>');
 define('lg_portal_req_terms', 'You must agree to the terms');
-?>
+
+/* HelpSpot 5 Additions */
+define('lg_portal_create_login', 'Create an account');
+define('lg_portal_loginrequired', 'Login Required');
+define('lg_portal_login_forgot', 'Forgot Password');
+define('lg_portal_er_unique_email', 'That username already exists. <a href=index.php?pg=login.forgot>Reset your password here.</a>');
+define('lg_portal_create_login_ex', 'Create an account to view your request history');
+define('lg_portal_login_forgot_ex', 'Reset Your Password');
+define('lg_portal_req_logincreate', 'Create an Account');
+define('lg_portal_req_loginpassword_confirm', 'Confirm Password');
+define('lg_portal_req_createbutton', 'Create Account');
+define('lg_portal_req_pw_reset_link', 'Send Password Reset Link');
+
+define('lg_portal_agree_terms_privacy', 'I agree to the <a href="%s" target="_blank">Terms of Service</a> and <a href="%s" target="_blank">Privacy Policy</a>');
+define('lg_portal_agree_terms', 'I agree to the <a href="%s" target="_blank">Terms of Service</a>');
+define('lg_portal_agree_privacy', 'I agree to the <a href="%s" target="_blank">Privacy Policy</a>');
+define('lg_portal_req_terms', 'You must agree to the terms');

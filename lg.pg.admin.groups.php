@@ -49,4 +49,6 @@ define('lg_admin_groups_fbedited','Groep bewerkt');
 define('lg_admin_groups_fbadded','Groep toegevoegd');
 define('lg_admin_groups_er_groups','Vul de naam van de groep in');
 
-?>
+/* HelpSpot 5 Additions */
+define('lg_admin_groups_fCanTransferRequests', 'User can transfer requests to staff in other categories');
+define('lg_admin_groups_fCanTransferRequestsex', 'This permission applies when the "Limit to assigned categories ONLY" permission is selected. Allows staff to transfer requests to categories they are not assigned to.');

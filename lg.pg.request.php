@@ -213,4 +213,22 @@ define('lg_request_pin', 'Pin');
 define('lg_request_pinned', 'Pinned');
 
 define('lg_admin_thermostat_label_see_results', 'See Survey Results');
-?>
+
+/* HelpSpot 5 Additions */
+define('lg_request_requesthistory', 'Request History');
+define('lg_request_customer_edit', 'Edit');
+define('lg_request_starttimer', 'Start Timer');
+define('lg_request_stoptimer', 'Stop Timer');
+define('lg_request_timetrackeroptions', 'Options');
+define('lg_request_note', 'Note');
+define('lg_request_contactedvia_short', 'Via');
+define('lg_request_attachbox', 'Click or drag/drop to attach');
+define('lg_request_isnoturgent', 'Mark Urgent');
+define('lg_request_search8', 'Search');
+define('lg_request_search9', 'Results');
+define('lg_request_emailoptions', 'Email Options');
+define('lg_request_fb_reqsmerged', 'Requests merged');
+define('lg_request_er_emailsenderror', 'EMAIL ERROR: An email failed to send.');
+define('lg_request_close', 'Close');
+define('lg_request_transfer_warning',"You are assigning this request to a category you do not have access to. After update you will no longer be able to view this request");
+define('lg_request_missing_attachment', 'The file %s was not found on the disk, please attach it again.');

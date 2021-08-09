@@ -77,4 +77,7 @@ define('lg_admin_cfields_coltype','Type');
 define('lg_admin_cfields_colreq','Verplicht');
 define('lg_admin_cfields_colpub','Publiek');
 define('lg_admin_cfields_erfieldname','Geef een naam op voor het veld');
-?>
+
+/* HelpSpot 5 Additions */
+define('lg_admin_tools_customer_delete_attachment','Delete an attachment');
+define('lg_admin_tools_customer_delete_attachment_note','This will permanently delete an attachment');

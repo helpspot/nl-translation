@@ -38,4 +38,14 @@ define('lg_admin_automation_fbedited','Regel bewerkt');
 define('lg_admin_automation_sorttitle','Volgorde van automation regels');
 define('lg_admin_automation_note','Gebruik automation om aanvragen te escaleren, medewerkers en klanten te informeren, aanvragen te herverdelen, en meer. Attentie: onjuist ingerichte automation regels kunnen gevaarlijk zijn. Test altijd uw condities voor u een regel opslaat. Als een aanvraag eenmaal gewijzigd is door een regel kan dit niet ongedaan gemaakt worden.');
 define('lg_admin_automation_confirm','Weet u zeker dat u deze regel toe wilt voegen? De regel zal meteen actief worden.');
-?>
+
+/* HelpSpot 5 Additions */
+define('lg_admin_automation_options_custom_schedule', 'Run Schedule');
+define('lg_admin_automation_options_custom_scheduleex', 'How often this Automation Rule will run.');
+define('lg_admin_automation_options_schedule_every_minute', 'Every minute');
+define('lg_admin_automation_options_schedule_every_5_minutes', 'Every 5 minutes');
+define('lg_admin_automation_options_schedule_every_hour', 'Every hour');
+define('lg_admin_automation_options_schedule_twice_daily', 'Twice daily');
+define('lg_admin_automation_options_schedule_daily', 'Daily');
+define('lg_admin_automation_options_schedule_weekly', 'Weekly');
+define('lg_admin_automation_options_schedule_monthly', 'Monthly (start of the month)');
